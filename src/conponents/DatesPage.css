@@ -1,0 +1,79 @@
+.TournePage{
+    margin-left: 30%;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 40px;
+    background-color: gray;
+    color: white;
+    height: 100%;
+}
+
+.Dates-modify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 10px;  
+    margin-bottom: 2rem;
+}
+
+.Dates-modify h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input{
+    outline: none;
+}
+
+.Dates-modify input[type="text"]{
+    padding: 5px 10px;
+    border: solid 3px black;
+    font-size: 15px;
+}
+
+.Dates-modify input[type="submit"]{
+    padding: 8px 12px;
+    border: solid 3px black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.Dates-modify input[type="date"]{
+    padding: 5px 10px;
+    border: solid 3px black;
+    font-size: 15px;
+}
+
+.date-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    margin-bottom: 2rem;
+    gap: 2px;
+}
+
+.date-display p{
+    font-size: 25px;
+    color: black;
+}
+
+.div-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.div-button button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}

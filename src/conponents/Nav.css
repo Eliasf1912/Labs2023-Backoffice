@@ -1,1 +1,29 @@
-/* e*/
+.Nav{
+    border: solid black 3px;
+    background-color: darkgrey;
+    padding: 20px;
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+ul li{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+ul li:visited{
+    list-style: none;
+    text-decoration: none;
+}

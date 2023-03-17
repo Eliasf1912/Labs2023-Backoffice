@@ -1,0 +1,27 @@
+.Home{
+    margin-left: 30%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 40px;
+    background-color: gray;
+    color: white;
+}
+
+.Main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.Main button{
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}

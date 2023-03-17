@@ -1,0 +1,42 @@
+.LoginPage{
+    margin-left: 30%;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    font-size: 40px;
+    background-color: gray;
+    color: white;
+}
+
+.input-container-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 10px;
+}
+
+input{
+    outline: none;
+}
+
+.input-container-login input[type="text"]{
+    padding: 5px 10px;
+    border: solid 3px black;
+    font-size: 15px;
+}
+
+.input-container-login input[type="password"]{
+    padding: 5px 10px;
+    border: solid 3px black;
+    font-size: 15px;
+}
+
+.input-container-login input[type="submit"]{
+    padding: 8px 12px;
+    border: solid 3px black;
+    font-size: 15px;
+    cursor: pointer;
+}
