@@ -4,11 +4,15 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     return ( 
         <div className="Nav">
-            <ul>
-                <li>Changer les paramétres du profile</li>
-                <Link to="/Date.js"><li>Modifier la tourner</li></Link>
-                <Link to="/"><li>Acceuil</li></Link>
-            </ul>
+            <div className="container">
+                <nav className="side-nav">
+                    <ul className="nav-menu">
+                        <Link to="/"><li className="nav-item"><span className="menu-text">Welcome</span></li></Link>
+                        <Link to="/LoginPage.js"><li className="nav-item"><span className="menu-text">Gestionnaire</span></li></Link>
+                        <Link to="/"><li className="nav-item"><span className="menu-text">Equipe</span></li></Link>
+                    </ul>
+                </nav>
+            </div>
         </div>
     );
 }

@@ -36,9 +36,9 @@ const LoginPage = () => {
     }
 
     return (  
-        <div className="LoginPage">
+        <div className="a">
             <Nav/>
-            <div className="input-container-login">
+            <div className="LoginPage">
                 <input type="text" name="email" placeholder="email" value={formObject.value} onChange={FormChange}/>
                 <input type="password" name="password" placeholder="mot de passe" value={formObject.value} onChange={FormChange}/>
                 <input type="submit" name="submit" value="Envoyer" onClick={login}/> 

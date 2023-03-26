@@ -1,9 +1,14 @@
-import { getDatabase, ref, set, onValue, update } from "firebase/database";
+import { getDatabase, ref, set, onValue, push, update } from "firebase/database";
+
+// Create a new post reference with an auto-generated id
+
 
 const databaseService = {
-    writeData(url, data) {
+    writeData( data) {
         const db = getDatabase();
-        set(ref(db, url), data);
+        const datesListRef = ref(db, 'dates');
+        const newDateRef = push(datesListRef);
+        set(newDateRef,data );
     },
     readData(url, callback) {
         const db = getDatabase();

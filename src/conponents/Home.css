@@ -1,4 +1,4 @@
-.Home{
+/* .Home{
     margin-left: 30%;
     padding: 10px;
     display: flex;
@@ -17,6 +17,40 @@
     flex-flow: column;
     gap: 10px;
 }
+
+.Main button{
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+} */
+
+
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column;
+    gap: 10px;
+    overflow: hidden;
+    background-color: white;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: -webkit-transform 300ms, box-shadow 300ms;
+    -moz-transition: -moz-transform 300ms, box-shadow 300ms;
+    transition: transform 300ms, box-shadow 300ms;
+    box-shadow: 5px 10px 10px rgba(2, 128, 144, 0.2);
+  }
 
 .Main button{
     padding: 10px 20px;
