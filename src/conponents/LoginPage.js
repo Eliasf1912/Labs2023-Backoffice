@@ -1,7 +1,7 @@
 import "./LoginPage.css"
-import Nav from "./Nav";
 import { useState } from 'react';
 import Error from '../firebase-usefull/error';
+// eslint-disable-next-line no-unused-vars
 import _ from '../firebase-usefull/init';
 import authService from "../firebase-usefull/auth";
 import { useNavigate } from "react-router-dom";
@@ -37,11 +37,10 @@ const LoginPage = () => {
 
     return (  
         <div className="a">
-            <Nav/>
             <div className="LoginPage">
-                <input type="text" name="email" placeholder="email" value={formObject.value} onChange={FormChange}/>
+                {/* <input type="text" name="email" placeholder="email" value={formObject.value} onChange={FormChange}/>
                 <input type="password" name="password" placeholder="mot de passe" value={formObject.value} onChange={FormChange}/>
-                <input type="submit" name="submit" value="Envoyer" onClick={login}/> 
+                <input type="submit" name="submit" value="Envoyer" onClick={login}/>  */}
             </div>
         </div>
     );

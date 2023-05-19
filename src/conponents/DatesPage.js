@@ -9,18 +9,16 @@ import { useNavigate } from 'react-router-dom';
 const Main = () => {
     
     const [datesTab, setDatesTab] = useState([]);
-    const navigate = useNavigate();
+    const nagate = useNavigate();
 
     useEffect( () => {
         databaseService.readData("dates", (data) => {
             let tab = [];
-            console.log(data)
             for(const key in data){
                 const newdate = {...data[key], id: key}
                 tab.push(newdate)
                 
             }
-            console.log(tab)
             setDatesTab(tab)
         })
 
