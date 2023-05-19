@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Labs2023-Backoffice/static/css/main.5624860e.css",
+    "main.js": "/Labs2023-Backoffice/static/js/main.ad6d9386.js",
+    "static/js/787.c43a36ca.chunk.js": "/Labs2023-Backoffice/static/js/787.c43a36ca.chunk.js",
+    "index.html": "/Labs2023-Backoffice/index.html",
+    "main.5624860e.css.map": "/Labs2023-Backoffice/static/css/main.5624860e.css.map",
+    "main.ad6d9386.js.map": "/Labs2023-Backoffice/static/js/main.ad6d9386.js.map",
+    "787.c43a36ca.chunk.js.map": "/Labs2023-Backoffice/static/js/787.c43a36ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5624860e.css",
+    "static/js/main.ad6d9386.js"
+  ]
+}
